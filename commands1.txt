@@ -1,0 +1,121 @@
+    1  clear
+    2  sudo service apache2 status
+    3  cd /var/www/html
+    4  ls
+    5  sudo mv index.html index1.html
+    6  clear
+    7  ls
+    8  sudo vi index.html
+    9  cd /etc/apache2
+   10  ls
+   11  cd sites-available/
+   12  ls
+   13  sudo nano 000-default.conf 
+   14  cd ~
+   15  cd /var/www/html
+   16  mkdir project
+   17  sudo mkdir project
+   18  cd project/
+   19  sudo nano index.html
+   20  sudo vi index.html.
+   21  touch abc.txt
+   22  sidp touch abc.txt
+   23  sudo  touch abc.txt
+   24  clear
+   25  ls
+   26  cat abc.txt
+   27  echo "Hello World" > abc.txt
+   28  sudo echo "Hello World" > abc.txt
+   29  ls -l
+   30  sudo chmod o+w abc.txt
+   31  ls -l
+   32  who am i 
+   33  whoami
+   34  pwd
+   35  sudo apt install apache2 
+   36  sudo apt update
+   37  clear
+   38  cd /var/www/html/project
+   39  ls
+   40  echo "Hello World" > abc.txt
+   41  cat abc.txt
+   42  sudo chmod o-r abc.txt
+   43  ls -l
+   44  sudo apt update
+   45  sudo apt install git
+   46  git -- version
+   47  git--version
+   48  git --version
+   49  mkdir project
+   50  ls
+   51  cd project
+   52  git status
+   53  git init
+   54  git branch -m master
+   55  git branch
+   56  git checkout -b
+   57  git checkout -b master
+   58  touch abc.txt
+   59  vi abc.txt
+   60  git status
+   61  git add abc.txt
+   62  git status
+   63  git commit -m "abc.txt file created"
+   64  git log
+   65  git config --list
+   66  git config --global user.email "zaman.asad62@gmail.com" 
+   67  git config --global user.name "Asad"
+   68  git log
+   69  git commit
+   70  git commit --amend --reset-author --no-edit
+   71  git log
+   72  git remote -v
+   73  git remote add origin https://github.com/zamanasad62/project.git
+   74  git remote -v
+   75  git push origin master
+   76  cd project
+   77  git origin master
+   78  git push origin master
+   79  enter
+   80  git status
+   81  cd
+   82  ls
+   83  cd project
+   84  git status
+   85  git branch
+   86  git checkout -b develop
+   87  git branch
+   88  git log
+   89  touch file.txt
+   90  nano file.txt
+   91  git status
+   92  git add file.txt
+   93  git commit
+   94  git commit -m " this is a new file "
+   95  git log
+   96  ls
+   97  git checkout master
+   98  ls
+   99  git log
+  100  git merge develop
+  101  ls
+  102  nano file.txt
+  103  git status
+  104  git diff file.txt
+  105  git add .
+  106  git status -m
+  107  git status
+  108  git commit -m " modified fil.txt"
+  109  git chectout develop
+  110  git checkout develop
+  111  nano file.txt
+  112  git merge master 
+  113  nano file.txt
+  114  git push origin develop
+  115  git push origin master
+  116  git branch
+  117  git pull origin develop
+  118  ls
+  119  git log
+  120  history
+  121  history > commands1.txt
