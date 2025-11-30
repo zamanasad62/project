@@ -4,12 +4,22 @@
 </head> 
 <body> 
 
-Enter first No : <input type ="text"  id="firstNo"/> <br/>
+Enter first No : <input type ="text"  id="firstNo"/ > <br/>
 Enter second no : <input type ="text" id="secondNo"/> <br/>
 Result : <input type ="text" id="result"><br/>
 <button> Add +</button>
 <button> Sub -</button>
-<button> Multiply * </button>
+<button onclick="multiply()"> Multiply * </button>
 <button> Division / </button>
+<script>
+function multiply() {
+alert("test")
+let num1 = document.getElementById("firstNo").value
+let num2 = document.getElementById("secondNo").value
+let result = num1*num2
+document.getElementById("result").value = result
+
+}
+</script>
 </body>
 </html>
